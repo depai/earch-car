@@ -1,0 +1,2507 @@
+
+.menu-desktop-open i {
+    background: url(../images/icon/icn-menu.svg) no-repeat 50% / contain;
+}
+.icon-hme i {
+    background: url(../images/icon/icn-home.svg) no-repeat 50% / contain;
+}
+.icon-driver i {
+    background: url(../images/icon/icn-car.svg) no-repeat 50% / contain;
+}
+.icon-search i {
+    background: url(../images/icon/icn-search.svg) no-repeat 50% / contain;
+}
+.vehicle-details .details-breadcrumb {
+    background-color: #1b1e1f;
+    padding: 10px 24px;
+    box-shadow: none;
+}
+header.topfixed {
+    z-index: 20;
+}
+.breadcrumb {
+    font-size: 12px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.67;
+    letter-spacing: normal;
+    color: #f8f8f8;
+    border-radius: 0;
+    margin: 0;
+}
+.breadcrumb .text-style-1 {
+    color: #359eeb !important;
+}
+.vehicle-details .details-head-main {
+    position: unset;
+    height: unset;
+    flex: unset;
+    width: auto;
+}
+.vehicle-details .details-head-intro {
+    position: unset;
+}
+.vehicle-details .details-head {
+    display: block;
+}
+.vehicle-details .car-intro-front {
+    right: 0;
+    height: 100%;
+    width: 420px;
+    left: auto;
+    top: 48px;
+    padding: 0;
+    overflow: auto;
+    box-shadow: 0 8px 14px 0 rgba(0, 0, 0, 0.17);
+    background-color: #ffffff;
+    position: fixed;
+    min-width: 420px;
+}
+.car-title-head {
+    background-color: #1b1e1f;
+    padding: 37px 24px;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+.app-vehicle-title {
+    background: #1b1e1f;
+}
+.app-vehicle-title h2 {
+    background: radial-gradient(circle at 100% 0, #e03880, #f48c37 99%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding: 15px 24px 22px 24px;
+    font-weight: bold;
+    margin: 0;
+}
+.vehicle-details .car-intro-bg img {
+    display: block;
+    width: 100%;
+    height: auto;
+    /* padding-right: 420px; */
+}
+.details-content {
+    display: flex;
+    position: relative;
+}
+.item-button {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    display: flex;
+    z-index: 1;
+    justify-content: space-between;
+}
+.vehicle-details .car-intro-bg {
+    position: relative;
+}
+.d-flex {
+    display: flex;
+}
+
+.vehicle-details .btn-1 {
+    -ms-flex: 0 0 152px;
+    flex: 0 0 152px;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    width: 152px;
+    height: 40px;
+    font-size: 14px;
+    font-size: 0.875rem;
+    font-weight: 700;
+    line-height: normal;
+    color: #fff;
+    border-radius: 20px;
+    background-color: #363c40;
+    z-index: 999;
+}
+.vehicle-details .car-intro-bg .btn-1 img {
+    width: 24px;
+    height: 24px;
+    padding: 0;
+    margin-right: 5px;
+}
+.vehicle-details .item-right .btn-1 {
+    width: 82px;
+    flex: auto;
+    height: 32px;
+    opacity: 0.8;
+    border-radius: 20px;
+    border: solid 1px #dcdcdc;
+    background-color: #fdfdfd;
+    font-size: 14px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.71;
+    letter-spacing: normal;
+    text-align: center;
+    color: #373a3c;
+}
+.details-scroll {
+    width: calc(100% - 420px);
+    /* overflow: auto; */
+    z-index: 0;
+}
+.item-right {
+    flex-direction: column;
+}
+.car-calendar img {
+    width: 24px;
+    height: 24px;
+}
+.vehicle-details .car-title {
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.71;
+    letter-spacing: normal;
+    color: #ffffff;
+    margin: 0;
+    padding-right: 0;
+}
+.car-calendar-img {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    box-shadow: 0 0 12px 0 rgba(219, 53, 100, 0.36),
+    0 6px 12px 0 rgba(219, 53, 100, 0.15);
+    background-image: radial-gradient(circle at 100% 0, #e63556, #cd3576);
+    position: absolute;
+    right: 10px;
+    bottom: -20px;
+}
+/* checkbox */
+
+.form-check input, .crl-form-check input {
+    padding: 0;
+    height: initial;
+    width: initial;
+    margin-bottom: 0;
+    display: none;
+    cursor: pointer;
+}
+
+.form-check label{
+    position: relative;
+    cursor: pointer;
+    padding-left: 40px;
+}
+
+.crl-form-check label {
+    position: relative;
+    cursor: pointer;
+}
+
+.form-check label:before{
+    content: "";
+    display: inline-block;
+    position: relative;
+    vertical-align: middle;
+    cursor: pointer;
+    position: absolute;
+    left: 0;
+    top: 8px;
+    width: 24px;
+    height: 24px;
+    border: 1px solid #ddd;
+    border-radius: 100%;
+    background: #fff;
+}
+
+.crl-form-check label:before {
+    content: "";
+    display: inline-block;
+    position: relative;
+    vertical-align: middle;
+    cursor: pointer;
+    position: absolute;
+    left: 20px;
+    top: 37px;
+    width: 24px;
+    height: 24px;
+    border: 1px solid #ddd;
+    border-radius: 100%;
+    background: #fff;
+}
+
+.form-check input:checked + label:after, .crl-form-check input:checked + label:after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 12px;
+    left: 9px;
+    width: 7px;
+    height: 12px;
+    border: solid #ffffff;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+}
+.form-check input:checked + label::before, .crl-form-check input:checked + label::before {
+    background: #359eeb;
+}
+.cal-item{
+    position: relative;
+}
+
+.cal-item.active::before{
+    content: '';
+    width: 8px;
+    height: calc(100% + 1px);
+    position: absolute;
+    left: 0;
+    top: 0;
+    background:  #db3564;
+}
+
+
+/* radio */
+[type="radio"]:checked,
+[type="radio"]:not(:checked) {
+    position: absolute;
+    left: -9999px;
+}
+[type="radio"]:checked + label,
+[type="radio"]:not(:checked) + label {
+    position: relative;
+    padding-left: 40px;
+    cursor: pointer;
+    line-height: 20px;
+    display: inline-block;
+    color: #666;
+}
+[type="radio"]:checked + label:before,
+[type="radio"]:not(:checked) + label:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 8px;
+    width: 24px;
+    height: 24px;
+    border: 1px solid #ddd;
+    border-radius: 100%;
+    background: #fff;
+}
+[type="radio"]:checked + label:after,
+[type="radio"]:not(:checked) + label:after {
+    content: "";
+    width: 18px;
+    height: 18px;
+    background-image: radial-gradient(circle at 100% 0, #e63556, #cd3576);
+    position: absolute;
+    top: 11px;
+    left: 3px;
+    border-radius: 100%;
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+}
+[type="radio"]:not(:checked) + label:after {
+    opacity: 0;
+    -webkit-transform: scale(0);
+    transform: scale(0);
+}
+[type="radio"]:checked + label:after {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+}
+.justify-content-between {
+    justify-content: space-between;
+}
+.car-calendar ul,
+.car-calendar li {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.car-calendar li {
+    padding: 16px 20px;
+    border-bottom: 1px solid #dcdcdc;
+}
+.car-calendar li:first-child {
+    background: #dcdcdc;
+    padding: 6px 20px 5px 20px;
+    font-size: 14px;
+    border-bottom: none;
+    font-weight: 500;
+}
+
+.car-calendar .form-check {
+    margin-bottom: 0;
+    display: flex;
+    align-items: center;
+}
+.switch-button {
+    margin-bottom: 16px;
+}
+/* switch button */
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 48px;
+    height: 24px;
+    margin-bottom: 0;
+}
+
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 24px;
+    width: 24px;
+    left: 0px;
+    bottom: 0px;
+    background-color: white;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+}
+
+input:checked + .slider {
+    background-color: #363c40;
+}
+
+input:focus + .slider {
+    box-shadow: 0 0 1px #363c40;
+}
+
+input:checked + .slider:before {
+    -webkit-transform: translateX(24px);
+    -ms-transform: translateX(24px);
+    transform: translateX(24px);
+}
+
+/* Rounded sliders */
+.slider.round {
+    border-radius: 12px;
+}
+
+.slider.round:before {
+    border-radius: 50%;
+}
+.vehicle-details .show-fixed-card {
+    z-index: 999;
+    width: 390px;
+    margin: auto;
+    display: inline-table;
+    height: auto;
+    color: #ffffff;
+    padding: 18px 16px 17px 16px;
+    border-radius: 8px;
+    position: fixed;
+    bottom: 60px;
+    left: 85.5%;
+    transform: translate(-50%);
+    box-shadow: 0 0 12px 0 rgba(219, 53, 100, 0.36),
+    0 6px 12px 0 rgba(219, 53, 100, 0.15);
+    background-image: radial-gradient(circle at 100% 0, #e63556, #cd3576);
+}
+.reserve-btn-card p {
+    margin-bottom: 12px;
+    color: #fff
+}
+.reserve-btn-card .text-1 {
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.71;
+    letter-spacing: normal;
+    margin-right: 15px;
+}
+.reserve-btn-card .text-2 {
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.75;
+    letter-spacing: normal;
+    margin-right: 15px;
+}
+.reserve-btn-card .style-2 {
+    font-size: 16px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.75;
+    letter-spacing: normal;
+}
+.align-items-center {
+    align-items: center;
+}
+.vehicle-details .car-btn-reservation {
+    width: 100%;
+}
+.idemitsu {
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+}
+.car-subtitle {
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.43;
+    letter-spacing: normal;
+    color: #4b5257;
+}
+.tag-bg {
+    border-radius: 20px;
+    background-color: #f3f3f3;
+    margin-right: 8px;
+}
+.tag-label {
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.71;
+    padding: 3px 16px;
+    letter-spacing: normal;
+    text-align: center;
+    color: #363c40;
+    margin: 0;
+    white-space: nowrap;
+}
+.car-detail-title {
+    padding: 0;
+}
+.car-detail-title .car-title {
+    font-size: 20px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.4;
+    letter-spacing: normal;
+    color: #1b1e1f;
+}
+.list-title {
+    margin-left: 8px;
+}
+.style-text-2 {
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.67;
+    letter-spacing: normal;
+    color: #8f8f8f;
+    margin: 0;
+}
+.style-text-1 {
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.43;
+    letter-spacing: normal;
+    color: #1b1e1f;
+    margin: 0;
+}
+.list-info {
+    margin-bottom: 0;
+}
+.icn-bg {
+    width: 40px;
+    height: 40px;
+    background-color: #f8f8f8;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 12px;
+    min-width: 40px;
+}
+.icn-bg img {
+    width: 24px;
+    height: 24px;
+    object-fit: contain;
+}
+#map {
+    height: 200px;
+}
+.button-search-map {
+    width: 146px;
+    height: 40px;
+    margin: auto;
+    border-radius: 20px;
+    border: solid 1px #359eeb;
+    background-color: #ffffff;
+    display: flex;
+    padding: 5px 24px;
+    align-items: center;
+    margin-bottom: 15px;
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+}
+.button-search-map img {
+    margin-right: 6px;
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
+}
+.button-search-map p {
+    margin: 0;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.71;
+    letter-spacing: normal;
+    text-align: center;
+    color: #359eeb;
+}
+.main-station,
+.main-map,
+.main-calendar,
+.main-tech,
+.main-tag-machine {
+    margin: 30px 24px 0 24px;
+}
+.has-bd {
+    border-bottom: 1px solid #dcdcdc;
+}
+.main-item {
+    margin: 0 24px 0 24px;
+    padding-bottom: 25px;
+    padding-top: 30px;
+}
+.main-map {
+    margin-top: 5px;
+    padding-top: 0;
+}
+.main-map .item-head {
+    margin-bottom: 10px;
+}
+.heading-3 {
+    font-size: 20px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.4;
+    letter-spacing: normal;
+    color: #1b1e1f;
+    margin-bottom: 5px;
+}
+/* css calendar  */
+.yui-skin-sam .yui-calcontainer.multi {
+    display: flex;
+    border: none;
+    float: unset;
+    background: transparent;
+    justify-content: space-between;
+    position: relative;
+    padding: 0 40px;
+}
+.yui-skin-sam .yui-calcontainer.multi .groupcal {
+    float: unset;
+}
+.calendar-note {
+    display: flex;
+    padding-left: 55px;
+}
+.yui-skin-sam .yui-calendar {
+    font: inherit;
+}
+.yui-skin-sam .yui-calendar td.calcell.calcellhover {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    background-color: #ffff;
+}
+.yui-skin-sam .yui-calendar td.calcell.calcellhover a {
+    background: #4b5257;
+}
+#ipad-calendar{
+    display: none;
+}
+
+.text-note {
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.67;
+    letter-spacing: normal;
+    color: #1b1e1f;
+    margin-right: 20px;
+}
+.text-note span {
+    padding-right: 5px;
+}
+.text-grey {
+    color: #8f8f8f;
+}
+.text-yellow {
+    color: #ffb300;
+}
+.main-station {
+    padding-bottom: 25px;
+}
+.main-station .links {
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.71;
+    letter-spacing: normal;
+    color: #359eeb;
+    text-decoration: underline;
+}
+.main-station ul {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+.main-station li {
+    padding-right: 10px;
+}
+.vehicle-details .main-reservations {
+    padding: 0;
+    padding-bottom: 50px;
+}
+.slot-time {
+    font-size: 16px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.25;
+    letter-spacing: normal;
+    color: #373a3c;
+    margin: 0 0 4px 0;
+}
+.slot-range {
+    font-size: 12px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    color: #373a3c;
+    margin: 0;
+}
+.slot-cost {
+    font-size: 16px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.25;
+    letter-spacing: normal;
+    text-align: right;
+    color: #359eeb;
+    margin-bottom: 0;
+}
+.subtitle {
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    color: #b1c8cf;
+}
+.subtitle-style-1 {
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    color: #1b1e1f;
+}
+.box-gray {
+    text-align: center;
+    border-radius: 6px;
+    padding: 15px;
+    background-color: #f8f8f8;
+}
+.style-text-3 {
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.71;
+    letter-spacing: normal;
+    text-align: center;
+    color: #359eeb;
+}
+.intro-content {
+    display: flex;
+}
+.intro-content .box-gray {
+    /* width: 48%; */
+    margin-right: 12px;
+}
+.intro-content .box-gray + .box-gray {
+    margin-right: 0;
+    margin-left: 12px;
+}
+dd {
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.67;
+    letter-spacing: normal;
+    color: #8f8f8f;
+}
+dt {
+    font-size: 13px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.54;
+    letter-spacing: normal;
+    color: #1b1e1f;
+}
+.vehicle-details .reservation-calendar {
+    padding: 0;
+}
+.icon-guide i {
+    background: url(../images/icon/icon-guide.svg) no-repeat 50% / contain;
+}
+.drawer-menu-pc li span {
+    background: url(../images/icon/icon-chevron-right.svg) no-repeat 50% / contain;
+}
+.icon-smartphone i {
+    background: url(../images/icon/icon-smartphone.svg) no-repeat 50% / contain;
+}
+.icon-email i {
+    background: url(../images/icon/icon-email-white.svg) no-repeat 50% / contain;
+}
+.icon-faq i {
+    background: url(../images/icon/icon-faq.svg) no-repeat 50% / contain;
+}
+.icon-safety i {
+    background: url(../images/icon/icon-shield.svg) no-repeat 50% / contain;
+}
+.icon-steering-wheel i {
+    background: url(../images/icon/icon-steering-wheel.svg) no-repeat 50% /
+    contain;
+}
+.icon-yen i {
+    background: url(../images/icon/icon-yen.svg) no-repeat 50% / contain;
+}
+/* calendar */
+.mbsc-cal-day-i {
+    color: transparent;
+}
+.mbsc-cal-day-date {
+    color: #454545;
+}
+.car-title-shape {
+    display: inline-flex;
+    margin-top: -16px;
+    background: #fff;
+    padding: 16px 24px 0 24px;
+    border-radius: 16px;
+}
+.details-body-main {
+    z-index: 0;
+    margin-top: 0;
+}
+.car-tag {
+    padding-left: 24px;
+    margin-bottom: 20px;
+}
+.vehicle-details .main-features-content {
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+.first-row {
+    margin-bottom: 15px;
+}
+.main-notice-content {
+    margin: 13px 0 28px 0;
+    font-weight: 300;
+}
+.vehicle-details .main-features {
+    margin: 0 24px 0 24px;
+    padding: 30px 0 25px 0;
+}
+.intro-content {
+    margin-top: 18px;
+    margin-bottom: 30px;
+}
+.box-gray .subtitle-style-1 {
+    margin-bottom: 10px;
+}
+.text-price {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.box-gray p {
+    margin-bottom: 0;
+}
+.main-other .main-other-content {
+    margin-bottom: 30px;
+    margin-top: 15px;
+}
+.main-tech-content {
+    font-size: 16px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.75;
+    letter-spacing: normal;
+    color: #1b1e1f;
+}
+.main-tech-content p {
+    font-weight: 300;
+}
+.main-tech-content p:last-child {
+    margin-bottom: 0;
+}
+.machine-tag {
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+.main-info-sys .container-fluid {
+    padding: 0;
+}
+.main-info-sys .heading-3 {
+    margin-bottom: 10px;
+}
+.main-info-sys {
+    padding-bottom: 15px;
+}
+.tag-oval {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.car-oval,
+li {
+    list-style: none;
+}
+.car-oval li {
+    margin-right: 15px;
+}
+.car-oval {
+    align-items: flex-start;
+    margin-bottom: 0;
+    padding-left: 24px;
+}
+.car-oval li p {
+    font-size: 10px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.2;
+    letter-spacing: normal;
+    text-align: center;
+    margin-bottom: 0;
+    color: #4b5257;
+    white-space: nowrap;
+}
+.car-oval .icn-bg {
+    width: 48px;
+    height: 48px;
+    margin-right: 0;
+    margin-bottom: 5px;
+}
+.car-oval .icn-bg img {
+    width: 40px;
+    height: 40px;
+}
+.nav-tabs,
+#calendar {
+    display: none;
+}
+.main-content-wrapper .tabs p {
+    font-size: unset;
+}
+.tab-content > .tab-pane {
+    display: block;
+}
+.fade {
+    opacity: 1;
+}
+.col-md-4 {
+    -ms-flex: 0 0 33.333333%;
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+}
+.yui-skin-sam .yui-calendar .calnavleft {
+    content: url(../images/icon/icn-arrow-back.svg);
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    line-height: normal;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #f3f3f3;
+    padding: 5px;
+    position: absolute;
+    left: -55px;
+}
+.yui-skin-sam .yui-calendar .calnavright {
+    content: url(../images/icon/icn-arrow-forward.svg);
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    line-height: normal;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #f3f3f3;
+    padding: 5px;
+    position: absolute;
+    right: -55px;
+}
+
+.calheader p {
+    margin-bottom: 0;
+    font-size: 16px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #1b1e1f;
+}
+.calheader p span {
+    font-size: 24px;
+}
+.yui-skin-sam .yui-calendar .calweekdayrow th {
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.14;
+    letter-spacing: normal;
+    text-align: center;
+    color: #363c40;
+}
+.yui-skin-sam .yui-calendar td.calcell {
+    width: 50px;
+    height: 50px;
+    background-color: transparent;
+    border: none;
+}
+.yui-skin-sam .yui-calendar td.calcell a {
+    font-size: 14px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.14;
+    letter-spacing: normal;
+    text-align: center;
+    color: #373a3c;
+}
+.yui-skin-sam .yui-calendar td.calcell.oom {
+    width: 50px;
+    height: 50px;
+    opacity: 0.3;
+    background-color: transparent;
+}
+.yui-skin-sam .yui-calendar td.calcell.oom p {
+    border-radius: 50%;
+    background-color: #f3f3f3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+    height: 32px;
+    margin: auto;
+    font-size: 14px;
+    font-weight: bold;
+}
+.yui-skin-sam .yui-calendar td.calcell a {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    margin: auto;
+    background-color: #f3f3f3;
+    color: #373a3c;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.yui-skin-sam .yui-calendar td.calcell.today a {
+    background-color: #4b5257;
+    color: #ffffff;
+}
+.yui-skin-sam .yui-calendar td.calcell.today {
+    background: transparent;
+}
+.yui-skin-sam .yui-calendar td.calcell.oom p {
+    margin-bottom: 0;
+    text-indent: -9000px;
+    background: #fff;
+}
+.yui-skin-sam .calbody tr td:first-child p,
+.yui-skin-sam .calbody tr td:first-child a {
+    color: #db3564;
+}
+.vehicle-details .details-head-intro {
+    height: auto;
+}
+
+/* style rentalCar */
+.list-car {
+    display: flex;
+}
+.main-rental-car .car-oval {
+    justify-content: flex-end;
+}
+.main-time-work {
+    padding: 25px 0;
+}
+.main-time-work table {
+    font-size: 14px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.71;
+    letter-spacing: normal;
+    color: #1b1e1f;
+    margin-top: 10px;
+}
+.main-time-work table tr td:first-child {
+    width: 70px;
+}
+p {
+    font-size: 14px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.71;
+    letter-spacing: normal;
+    color: #1b1e1f;
+}
+.main-station p {
+    margin-bottom: 0;
+}
+.rental-fee {
+    margin-top: 27px;
+    margin-bottom: 10px;
+}
+.has-bg {
+    background-color: #f3f3f3;
+}
+.rental-fee .subtitle-style-1 {
+    margin-bottom: 15px;
+}
+.main-fee table {
+    width: 100%;
+}
+.main-fee table td {
+    border: solid 1px #ffff;
+    width: 50%;
+    padding: 5px 24px;
+    border-right: none;
+    font-size: 13px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.54;
+    letter-spacing: normal;
+    color: #373a3c;
+}
+.main-rental {
+    margin-bottom: 40px;
+}
+.main-rental .des-style1 {
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.67;
+    letter-spacing: normal;
+    color: #1b1e1f;
+    margin-bottom: 17px;
+}
+.main-rental .des-style2 {
+    font-size: 14px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.71;
+    letter-spacing: normal;
+    color: #1b1e1f;
+    margin-bottom: 0;
+}
+.indemnity .has-bg {
+    padding: 17px;
+}
+.vehicle-details .panel-body {
+    text-align: center;
+    padding: 40px 24px;
+    margin: 0;
+}
+.panel-body .title {
+    font-size: 18px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.56;
+    letter-spacing: normal;
+    text-align: center;
+    color: #1b1e1f;
+}
+.panel-body .text {
+    font-size: 14px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.71;
+    letter-spacing: normal;
+    text-align: center;
+    color: #1b1e1f;
+    margin-bottom: 25px;
+}
+.vehicle-details .panel-body .icon {
+    margin: 22px auto 22px;
+}
+.btn.contact {
+    border-radius: 20px;
+    border: solid 1px #359eeb;
+    background-color: #fff;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.71;
+    letter-spacing: normal;
+    text-align: center;
+    color: #359eeb;
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+}
+.dis-sp {
+    display: none;
+}
+.btn.contact:hover {
+    background-color: #359eeb;
+    border-color: #fff;
+    color: #fff;
+}
+.main-receive p,
+.main-standard p {
+    margin-bottom: 0;
+}
+
+.detail-list-coupon{
+    width: 930px;
+    height: auto;
+    padding: 20px 0 0 24px;
+}
+
+.icon-arrow-back{
+    object-fit: contain;
+    background-color: whitesmoke;
+}
+
+.coupon-hole-shape {
+    width: 343px;
+    height: 98px;
+    background-color: #f3f3f3;
+    border-radius: 5%;
+
+}
+.circle-top {
+    width: 30px;
+    height: 30px;
+    background: #fff;
+    text-align: center;
+    padding: 10px;
+    color: #fff;
+    -moz-border-radius: 100px;
+    -webkit-border-radius: 100px;
+    border-radius: 100px;
+    margin-left: 50px;
+    position: absolute;
+    margin-top: -16px;
+}
+
+.circle-bottom {
+    width: 30px;
+    height: 30px;
+    background: #fff;
+    text-align: center;
+    padding: 10px;
+    color: #fff;
+    -moz-border-radius: 100px;
+    -webkit-border-radius: 100px;
+    border-radius: 100px;
+    margin-left: 50px;
+    position: absolute;
+    margin-top: 84px;
+}
+
+.gachdoc{
+    position: absolute;
+    border: 1px dashed grey;
+    margin-top: 25px;
+    margin-left: 65px;
+    width: 1px;
+    height: 50px;
+}
+
+.detail-slide-text{
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    margin-left: 100px;
+    padding: 8px;
+    text-align: center;
+}
+
+.dlt-title{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.14;
+}
+
+.dlt-price{
+    font-size: 28px;
+    font-weight: bold;
+    line-height: 0.86;
+}
+
+.dlt-price-1{
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.dlt-price-2{
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1.2;
+}
+
+.dlt-date{
+    font-size: 12px;
+    font-weight: normal;
+    line-height: normal;
+}
+
+.detail-slider {
+    width: 50%;
+    margin: 100px auto;
+}
+
+.crl-top{
+    width: 419px;
+    height: 48px;
+    background-color: whitesmoke;
+    position: relative;
+}
+
+.crl-top-text ul li{
+    display: inline-block;
+    padding: 10px 25px 0 15px;
+}
+
+/*.crl-top-text::before{*/
+/*    position: absolute;*/
+/*    top: 0;*/
+/*    left: 0;*/
+/*    width: 163px;*/
+/*    height: 1px;*/
+/*    border-style: solid;*/
+/*    border-width: 3px;*/
+/*    border-image-source: linear-gradient(to right, #65b9f7, #eb35d6);*/
+/*    border-image-slice: 1;*/
+/*}*/
+
+.crl-icn-arrow-back {
+    width: 24px;
+    height: 24px;
+    object-fit: contain;
+    cursor: pointer;
+}
+
+.crl-title ul li{
+    display: inline-block;
+    padding: 10px 90px 0 0;
+}
+
+.crl-description ul li{
+    font-size: 14px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.71;
+    letter-spacing: normal;
+    color: #1b1e1f;
+}
+
+.crl-coupons{
+    padding: 25px 0 25px 0;
+}
+
+.circle-t{
+    border-radius: 0 0 100% 100% / 0 0 100% 100%;
+    border: 1.5px solid red;
+    border-top: 0;
+}
+
+.circle-b{
+    border-radius: 100% 100% 0 0 / 100% 100% 0 0;
+    border: 1.5px solid red;
+    border-bottom: 0;
+}
+
+.crl-reservation{
+    width: 350px;
+    margin: 0 auto;
+}
+
+.crl-reservation hr{
+    width: 350px;
+}
+
+.crl-reservation-title{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.4;
+    letter-spacing: normal;
+    color: grey;
+}
+
+.crl-coupons ul li{
+    padding-bottom: 40px;
+}
+
+.crl-reservation-box-2 p{
+    clear: both;
+    color: grey;
+    font-weight: 300
+}
+
+.crl-reservation-box-text-1, .crl-reservation-box-text-3,
+.crl-reservation-box-text-4, .crl-reservation-box-text-5,
+.crl-reservation-box-text-7{
+    float: left;
+}
+
+.crl-reservation-box-text-2, .crl-reservation-box-text-6,
+.crl-reservation-box-text-8{
+    float: right;
+}
+
+.crl-reservation-box-text-4, .crl-reservation-box-text-5{
+    padding-left: 45px;
+}
+
+@media screen and (min-width: 1900px) {
+    .detail-slider.detail-slide-coupons.slick-initialized.slick-slider {
+        width: 1300px!important;
+    }
+
+    .vehicle-details .show-fixed-card{
+        left: 89%;
+    }
+}
+
+@media screen and (max-width: 1899px) {
+    .card-hide{
+        left: 89%!important;
+        bottom: 0!important;
+    }
+}
+
+@media screen and (max-width: 1826px){
+    .card-hide{
+        left: 88.5%!important;
+    }
+}
+
+@media screen and (max-width: 1390px) {
+    .detail-slider.detail-slide-coupons.slick-initialized.slick-slider {
+        width: 870px!important;
+    }
+
+    .vehicle-details .show-fixed-card{
+        left: 85%;
+    }
+}
+
+@media screen and (max-width: 1366px) {
+    .detail-slider.detail-slide-coupons.slick-initialized.slick-slider {
+        width: 850px!important;
+    }
+}
+
+@media screen and (max-width: 1346px) {
+    .detail-slider.detail-slide-coupons.slick-initialized.slick-slider {
+        width: 820px!important;
+    }
+
+    .vehicle-details .show-fixed-card{
+        left: 84%;
+    }
+}
+
+@media screen and (max-width: 1346px) {
+    .detail-slider.detail-slide-coupons.slick-initialized.slick-slider {
+        width: 800px!important;
+    }
+}
+
+@media screen and (min-width: 1300px) {
+    .yui-skin-sam .yui-calcontainer.multi {
+        max-width: 900px;
+    }
+}
+
+@media screen and (max-width: 1296px) {
+    .detail-slider.detail-slide-coupons.slick-initialized.slick-slider {
+        width: 770px!important;
+    }
+
+    .slick-prev, .slick-next{
+        top: 35%!important;
+    }
+
+    .dlt-title{
+        font-size: 12px!important;
+    }
+
+    .dlt-price{
+        font-size: 21px!important;
+    }
+}
+
+@media screen and (max-width: 1266px) {
+    .detail-slider.detail-slide-coupons.slick-initialized.slick-slider {
+        width: 750px!important;
+    }
+}
+
+@media screen and (max-width: 1250px) {
+    .yui-skin-sam .yui-calcontainer.multi {
+        padding: 0;
+    }
+    .yui-skin-sam .yui-calendar .calnavleft {
+        left: -15px;
+    }
+    .yui-skin-sam .yui-calendar .calnavright {
+        right: -15px;
+    }
+    .calendar-note {
+        padding-left: 10px;
+    }
+}
+
+@media screen and (max-width: 1247px) {
+    .detail-slider.detail-slide-coupons.slick-initialized.slick-slider {
+        width: 730px!important;
+    }
+
+    .slick-prev, .slick-next{
+        top: 50%!important;
+    }
+
+    .vehicle-details .show-fixed-card{
+        left: 83%;
+    }
+}
+
+@media screen and (max-width: 1229px) {
+    .detail-slider.detail-slide-coupons.slick-initialized.slick-slider {
+        width: 710px!important;
+    }
+
+    .slick-prev, .slick-next{
+        top: 45%!important;
+    }
+}
+
+@media screen and (max-width: 1210px) {
+    .detail-slider.detail-slide-coupons.slick-initialized.slick-slider {
+        width: 680px!important;
+    }
+
+    .dlt-price {
+        font-size: 17px!important;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .vehicle-details .car-intro-front {
+        min-width: 334px;
+        width: 334px;
+    }
+    .app-vehicle-title h2 {
+        font-size: 1.6rem;
+    }
+    .details-scroll {
+        width: calc(100% - 334px);
+    }
+    /* .vehicle-details .car-intro-front {
+      position: unset;
+    } */
+
+    .detail-slider.detail-slide-coupons.slick-initialized.slick-slider {
+        width: 770px!important;
+    }
+
+    .dlt-price {
+        font-size: 17px!important;
+    }
+
+    .vehicle-details .show-fixed-card{
+        width: 27%;
+        left: 86%;
+    }
+}
+
+@media screen and (max-width: 1181px) {
+    .detail-slider.detail-slide-coupons.slick-initialized.slick-slider {
+        width: 750px!important;
+    }
+}
+
+@media screen and (max-width: 1163px) {
+    .detail-slider.detail-slide-coupons.slick-initialized.slick-slider {
+        width: 730px!important;
+    }
+}
+
+@media screen and (max-width: 1140px) {
+    .detail-slider.detail-slide-coupons.slick-initialized.slick-slider {
+        width: 700px!important;
+    }
+}
+
+@media screen and (max-width: 1113px) {
+    .detail-slider.detail-slide-coupons.slick-initialized.slick-slider {
+        width: 680px!important;
+    }
+
+    .vehicle-details .show-fixed-card{
+        width: auto;
+        left: 85%;
+    }
+}
+
+@media screen and (max-width: 1092px) {
+    .detail-slider.detail-slide-coupons.slick-initialized.slick-slider {
+        width: 660px!important;
+    }
+
+    .dlt-price {
+        font-size: 13px!important;
+    }
+
+    .detail-slide-text{
+        margin-left: 80px;
+    }
+}
+
+@media screen and (max-width: 1070px) {
+    .detail-slider.detail-slide-coupons.slick-initialized.slick-slider {
+        width: 640px!important;
+    }
+
+    .vehicle-details .show-fixed-card{
+        left: 84%;
+    }
+}
+
+@media screen and (max-width: 1050px) {
+    .detail-slider.detail-slide-coupons.slick-initialized.slick-slider {
+        width: 620px!important;
+    }
+}
+
+@media screen and (max-width: 1030px) {
+    .detail-slider.detail-slide-coupons.slick-initialized.slick-slider {
+        width: 600px!important;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .app-vehicle-title h2 {
+        font-size: 1.4rem;
+        line-height: 28px;
+    }
+    .main-features-content .col-md-6 {
+        width: 100%;
+    }
+    .main-features-content .d-flex.row,
+    .main-other-content .d-flex.row {
+        flex-direction: column;
+        margin-bottom: 0;
+    }
+    .main-features-content .item-head,
+    .main-other-content .item-head {
+        margin-bottom: 12px;
+    }
+    .main-info-sys .col-sm-6 {
+        margin-bottom: 30px;
+        float: left;
+        width: 50%;
+    }
+    .main-other .main-other-content {
+        margin-bottom: 0;
+    }
+    #pc-calendar {
+        display: none;
+    }
+    #ipad-calendar{
+        display: flex;
+    }
+    .yui-skin-sam .yui-calcontainer.multi {
+        justify-content: center;
+    }
+    .vehicle-details .show-fixed-card {
+        top: unset;
+        bottom: 30px;
+        z-index: 99999;
+
+    }
+    .yui-skin-sam .yui-calendar .calnavleft {
+        left: -55px;
+    }
+    .yui-skin-sam .yui-calendar .calnavright {
+        right: -55px;
+    }
+
+}
+@media (max-width: 1023px) {
+    .vehicle-details .car-intro-bg {
+        display: block;
+    }
+    .vehicle-details .details-head-intro {
+        margin: 0;
+    }
+    .vehicle-details .car-intro-front {
+        border-radius: 0;
+    }
+    .vehicle-details .details-body {
+        display: flex;
+        padding: 0;
+        background-color: #fff;
+    }
+    .vehicle-details .main-reservations {
+        margin: 0;
+    }
+    .car-title-head{
+        padding: 16px;
+    }
+}
+
+@media screen and (max-width: 1010px) {
+    .detail-slider.detail-slide-coupons.slick-initialized.slick-slider {
+        width: 550px!important;
+    }
+
+    .vehicle-details .show-fixed-card{
+        left: 83%;
+    }
+}
+
+@media screen and (max-width: 960px) {
+    .detail-slider.detail-slide-coupons.slick-initialized.slick-slider {
+        width: 570px!important;
+    }
+
+    .vehicle-details .show-fixed-card {
+        width: 28% !important;
+        left: 85%!important;
+    }
+
+    .vehicle-details .car-intro-front {
+        min-width: 279px;
+        width: 279px;
+    }
+    .details-scroll {
+        width: calc(100% - 279px);
+    }
+    .vehicle-details .show-fixed-card {
+        width: 93%;
+        max-width: 390px;
+    }
+    .vehicle-details .car-title {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 928px) {
+    .detail-slider.detail-slide-coupons.slick-initialized.slick-slider {
+        width: 550px!important;
+    }
+}
+
+@media screen and (max-width: 903px) {
+    .detail-slider.detail-slide-coupons.slick-initialized.slick-slider {
+        width: 520px!important;
+    }
+}
+
+@media screen and (max-width: 877px) {
+    .detail-slider.detail-slide-coupons.slick-initialized.slick-slider {
+        width: 490px!important;
+    }
+
+    .vehicle-details .show-fixed-card {
+        width: 35% !important;
+        left: 81%!important;
+    }
+}
+
+@media screen and (max-width: 847px) {
+    .detail-slider.detail-slide-coupons.slick-initialized.slick-slider {
+        width: 460px!important;
+    }
+}
+
+@media screen and (max-width: 807px) {
+    .detail-slider.detail-slide-coupons.slick-initialized.slick-slider {
+        width: 450px!important;
+    }
+
+    .vehicle-details .show-fixed-card {
+        width: 35% !important;
+        left: 81%!important;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .mobile-header-375 {
+        display: none;
+    }
+    header .only-mobile {
+        display: block;
+    }
+    header .only-pc {
+        display: none;
+    }
+    .car-title-head {
+        padding: 16px 14px;
+    }
+    .app-vehicle-title h2 {
+        font-size: 1.3rem;
+        line-height: 26px;
+    }
+}
+@media screen and (max-width: 767px) {
+    .detail-slider.detail-slide-coupons.slick-initialized.slick-slider {
+        width: 650px!important;
+    }
+
+    .vehicle-details .show-fixed-card {
+        width: 50% !important;
+        left: 50%!important;
+    }
+
+    .yui-skin-sam .yui-calendar .calnavleft{
+        left: -15px;
+    }
+    .yui-skin-sam .yui-calendar .calnavright{
+        right: -15px;
+    }
+    html {
+        overflow: auto;
+    }
+    .yui-skin-sam .yui-calcontainer.multi {
+        justify-content: center;
+    }
+    .details-scroll {
+        max-height: unset !important;
+        width: 100%;
+    }
+    /* style tab */
+    ul.tabs {
+        margin: 0px;
+        padding: 0px;
+        list-style: none;
+        display: flex;
+        max-width: 500px;
+        margin: auto;
+    }
+    .data-tab {
+        border: solid 1px #f3f3f3;
+        box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.15);
+        margin-top: 10px;
+    }
+    ul.tabs li {
+        text-align: center;
+    }
+    .main-content-wrapper ul.tabs li p {
+        font-size: 16px;
+        font-weight: 500;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        text-align: center;
+        padding: 8px 0;
+        color: #8f8f8f;
+        margin-bottom: 0;
+        display: inline-flex;
+        cursor: pointer;
+    }
+
+    ul.tabs li.current p {
+        color: #359eeb;
+        font-weight: bold;
+        border-bottom: 3px solid #359eeb;
+    }
+
+    .tab-content {
+        display: none;
+        padding: 15px;
+    }
+
+    .tab-content.current {
+        display: inherit;
+    }
+    .vehicle-details .car-intro-front {
+        position: unset;
+    }
+    .details-content {
+        display: block;
+    }
+    .reservation-calendar {
+        display: none;
+    }
+    .tab-content.current#calendar {
+        display: block;
+    }
+    .vehicle-details .details-head-intro {
+        margin: 0;
+    }
+    .vehicle-details .car-intro-bg {
+        display: block;
+    }
+    .vehicle-details .car-intro-bg img {
+        padding: 0;
+    }
+    .item-button {
+        left: calc(100% - 105px);
+        top: 0;
+        height: 100%;
+        padding: 20px 0;
+    }
+    .item-right {
+        justify-content: space-between;
+    }
+    .item-right p {
+        margin-bottom: 0;
+    }
+    .vehicle-details .item-right .btn-1 {
+        flex: unset;
+    }
+    .vehicle-details section.details-body {
+        display: flex;
+        padding: 0;
+        width: 100%;
+        background: #ffffff;
+    }
+    .vehicle-details .main-features {
+        display: block;
+        margin: 0 15px;
+        padding-bottom: 15px;
+    }
+    .car-tag {
+        margin-bottom: 15px;
+    }
+    /* style booking */
+    .car-title-head {
+        display: none;
+    }
+    .vehicle-details .main-reservations {
+        margin: 0;
+        height: auto !important;
+    }
+    .vehicle-details .car-intro-front {
+        width: 100%;
+        max-height: unset !important;
+        min-width: unset;
+    }
+    .car-detail-title {
+        padding: 0;
+    }
+    .car-detail-title .car-title {
+        font-size: 18px;
+        padding-right: 20px;
+    }
+    .car-title-shape {
+        padding: 16px 0px 0 8px;
+        background: #fff;
+    }
+    .app-vehicle-title h2 {
+        font-size: 1.8rem;
+        line-height: 32px;
+    }
+    .tag-oval {
+        display: block;
+        max-width: 340px;
+        margin: auto;
+    }
+    .car-tag,
+    .car-oval {
+        padding: 0;
+    }
+    .car-tag .tag-bg:last-child,
+    .car-oval li:last-child {
+        margin-right: 0;
+    }
+    .idemitsu {
+        width: 38px;
+        height: 38px;
+    }
+
+    /* style details */
+    #map {
+        height: 128px;
+    }
+    .tab-content {
+        padding: 24px 0;
+    }
+    #details .main-calendar {
+        display: none;
+    }
+    .vehicle-details .main-features-content {
+        margin-bottom: 15px;
+    }
+    .main-notice-content {
+        font-size: 14px;
+        margin-bottom: 20px;
+    }
+    .intro-content {
+        align-items: center;
+        flex-direction: column;
+    }
+    .intro-content .box-gray,
+    .intro-content .box-gray + .box-gray {
+        margin: 0;
+        width: 100%;
+        max-width: 350px;
+    }
+    .intro-content .box-gray + .box-gray {
+        margin-top: 16px;
+    }
+    .main-item {
+        margin: 0 15px;
+    }
+    .main-info-sys .container-fluid {
+        padding: 0;
+    }
+    .main-notice-content {
+        font-size: 14px;
+        font-weight: 300;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.71;
+        letter-spacing: normal;
+        color: #1b1e1f;
+    }
+    .main-info-sys .col-sm-6 {
+        margin-bottom: 30px;
+    }
+    .list-info {
+        margin-bottom: 0;
+    }
+    .tag-bg {
+        margin-bottom: 8px;
+    }
+
+    /* rentalcar sp */
+    .main-rental-car .car-oval {
+        justify-content: flex-start;
+    }
+    .main-rental-car .main-info-sys .col-sm-6 {
+        margin-bottom: 0;
+    }
+    .rental-fee {
+        margin-top: 20px;
+    }
+    .dis-sp {
+        display: block;
+        margin-bottom: 20px;
+    }
+    .main-rental {
+        padding-bottom: 5px;
+    }
+    .dis-sp .btn.contact {
+        border: 1px solid #dcdcdc;
+        background-color: #fdfdfd;
+        color: #373a3c;
+        width: 164px;
+        padding: 4px;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .rental-fee .indemnity {
+        margin-top: 30px;
+    }
+    .rental-fee {
+        margin-bottom: 15px;
+    }
+}
+@media screen and (max-width: 576px) {
+    .app-vehicle-title h2 {
+        font-size: 1.6rem;
+    }
+    .main-info-sys .col-sm-6 {
+        width: 50%;
+        float: left;
+    }
+}
+
+@media screen and (max-width: 700px){
+    .detail-slider.detail-slide-coupons.slick-initialized.slick-slider {
+        width: 600px!important;
+    }
+}
+
+@media screen and (max-width: 650px){
+    .detail-slider.detail-slide-coupons.slick-initialized.slick-slider {
+        width: 550px!important;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .detail-slider.detail-slide-coupons.slick-initialized.slick-slider {
+        width: 500px!important;
+    }
+
+    .vehicle-details .show-fixed-card {
+        width: 60% !important;
+        left: 58%!important;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .detail-slider.detail-slide-coupons.slick-initialized.slick-slider {
+        width: 400px!important;
+    }
+
+    .vehicle-details .show-fixed-card {
+        width: 90% !important;
+        left: 51%!important;
+    }
+
+    .detail-slide-text p {
+        line-height: 6px;
+    }
+
+    .icon-arrow-back, .icon-arrow-forward{
+        display: none!important;
+    }
+
+    p.dlt-title {
+        padding-top: 15px;
+    }
+
+    .mobile-header-375 {
+        display: block;
+    }
+    .mobile-header-default {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .detail-slider.detail-slide-coupons.slick-initialized.slick-slider {
+        width: 360px!important;
+    }
+}
+
+@media screen and (max-width: 440px) {
+    .detail-slider.detail-slide-coupons.slick-initialized.slick-slider {
+        width: 330px!important;
+    }
+}
+
+@media screen and (max-width: 406px) {
+    .detail-slider.detail-slide-coupons.slick-initialized.slick-slider {
+        width: 300px!important;
+    }
+
+    .detail-slide-text p {
+        line-height: unset;
+    }
+
+    p.dlt-title {
+        padding-top: unset;
+    }
+
+    .dlt-title {
+        font-size: 9px!important;
+    }
+
+    .dlt-price {
+        font-size: 10px!important;
+    }
+
+    .dlt-date {
+        font-size: 9px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .rental-fee .indemnity {
+        margin-top: 25px;
+    }
+    .app-vehicle-title h2 {
+        font-size: 1.4rem;
+    }
+    .idemitsu {
+        width: 35px;
+        height: 35px;
+    }
+    .car-detail-title .car-title {
+        font-size: 14px;
+        padding-right: 10px;
+    }
+    .car-title-shape {
+        padding: 10px 0px 0 8px;
+    }
+    .tag-label {
+        font-size: 12px;
+    }
+    .tag-oval {
+        max-width: 310px;
+    }
+    .car-oval .icn-bg img {
+        width: 34px;
+        height: 34px;
+    }
+
+    .car-oval li {
+        margin-right: 0;
+    }
+    .slot-time {
+        font-size: 14px;
+    }
+    .car-calendar li:first-child {
+        font-size: 13px;
+    }
+    .main-content-wrapper ul.tabs li p,
+    .slot-cost {
+        font-size: 14px;
+    }
+    .slot-range {
+        font-size: 11px;
+    }
+    .car-calendar li {
+        padding: 10px 15px;
+    }
+    [type="radio"]:checked + label:before,
+    [type="radio"]:not(:checked) + label:before {
+        width: 20px;
+        height: 20px;
+    }
+    [type="radio"]:checked + label:after,
+    [type="radio"]:not(:checked) + label:after {
+        width: 14px;
+        height: 14px;
+    }
+}
+@media screen and (max-width: 350px){
+    header .brand-logo{
+        left: 8px;
+    }
+    .pop-navigation .item-essential-mobile>a, .pop-navigation .item-essential>a{
+        font-size: 12px;
+    }
+    .pop-navigation .drawer-menu-wrapper, .pop-navigation .item-essential{
+        margin-right: 8px;
+    }
+    header .brand-logo img{
+        width: 100px;
+        height: auto;
+    }
+    .pop-navigation .drawer-menu-wrapper i, .pop-navigation .item-essential i{
+        width: 23px;
+        height: 23px;
+    }
+    .reserve-btn-card .text-1{
+        font-size: 12px;
+    }
+    .reserve-btn-card .style-2{
+        font-size: 14px;
+    }
+    .reserve-btn-card .text-2{
+        font-size: 14px;
+    }
+}
+/*tiep custom*/
+.pgwSlider{float:left;display: flex!important;/*overflow: hidden;*/position: relative;}
+.ps-list{
+    display: grid!important;
+    grid-template-columns: 1fr 1fr 1fr!important;
+    grid-column-gap: 6px!important;
+    width: 35%!important;
+    position: relative;
+}
+ul.ps-list>li {float: left;}
+.pgwSlider .ps-current .ps-next{
+    width: 40px!important;
+    height: 40px!important;
+    background: #dcdcdc!important;
+    border: none!important;
+    padding: 0!important;
+    border-radius: 50%!important;
+    content: url(../images/icon/icn-arrow-forward.svg);
+}
+.pgwSlider .ps-current .ps-prev{
+    width: 40px!important;
+    height: 40px!important;
+    background: #dcdcdc!important;
+    border: none!important;
+    padding: 0!important;
+    border-radius: 50%!important;
+    content: url(../images/icon/icn-arrow-back.svg);
+    z-index: 8;
+}
+.pgwSlider .ps-current{
+    overflow: initial!important;
+    width: 64%!important;
+    z-index: 8;
+}
+.pgwSlider .ps-current img {min-width: 80%!important;width: 90%!important;margin: auto!important;border-radius: 5px!important;}
+.pgwSlider .ps-nextIcon, .pgwSlider .ps-prevIcon{border-color:0!important;border-style:none!important;border-width:0!important;display:none!important;}
+ul.pgwSlider, .pgwSlider ul{margin: auto!important;overflow: auto;position: relative;}
+.pgwSlider ul{float: left!important;}
+.pgwSlider>.ps-list>li{height: auto!important;min-height: 95px;}
+.pgwSlider>ul>li img {border-radius: 5px!important;}
+ul.ps-list::-webkit-scrollbar {
+    width: 0 !important
+}
+.count{
+    font-family: NotoSansJP;
+    font-size: 16px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2;
+    letter-spacing: normal;
+    color: #fdfdfd;
+    padding-right: 45px;
+    float: right;
+}
+.pgwSlider>ul>li:last-child{margin-bottom: auto!important;}
+.pgwSlider .over_13>li:last-child{margin-bottom: 30px!important;}
+.pgwSlider .over_14>li:last-child{margin-bottom: 30px!important;}
+.pgwSlider .over_14>li:nth-last-child(2){margin-bottom: 30px!important;}
+.pgwSlider .over_15>li:last-child{margin-bottom: 30px!important;}
+.pgwSlider .over_15>li:nth-last-child(2){margin-bottom: 30px!important;}
+.pgwSlider .over_15>li:nth-last-child(3){margin-bottom: 30px!important;}
+.pgwSlider>ul>li:first-child{margin-top: 30px!important;}
+.pgwSlider>ul>li:nth-child(2){margin-top: 30px!important;}
+.pgwSlider>ul>li:nth-child(3){margin-top: 30px!important;}
+.ps-list:before,.pgwSlider:after {
+    content:'';
+    position:fixed;
+    width:100%;
+    opacity:0.99;
+    z-index: 7;
+}
+.ps-list:before{
+    height:8%;
+    -moz-box-shadow: inset 0px 50px 18px -10px #1b1e1f;
+    -webkit-box-shadow: inset 0px 50px 18px -10px #1b1e1f;
+    -o-box-shadow: inset 0px 50px 18px -10px #1b1e1f;
+    box-shadow: inset 0px 50px 18px -22px #1b1e1f;
+}
+.pgwSlider:after{
+    height:15%;
+    -moz-box-shadow: inset 0px -42px 14px -14px #1b1e1f;
+    -webkit-box-shadow: inset 0px -42px 14px -14px #1b1e1f;
+    -o-box-shadow: inset 0px -42px 14px -14px #1b1e1f;
+    box-shadow: inset 0px -42px 14px -15px #1b1e1f;
+    position: absolute;
+    bottom: 0;
+}
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: #1b1e1f; /* Black w/ opacity */
+    z-index: 999;
+}
+/* Modal Content/Box */
+.modal-content {
+    background-color: #1b1e1f;
+    margin: 10% auto; /* 15% from the top and centered */
+    padding: 20px;
+    width: 80%; /* Could be more or less, depending on screen size */
+    border: 0!important;
+}
+/* The Close Button */
+.closez {
+    color: #000;
+    float: right;
+    font-size: 21px;
+    width: 32px;
+    height: 32px;
+    background: #dcdcdc!important;
+    border: none!important;
+    padding: 0!important;
+    border-radius: 50%!important;
+    text-align: center;
+    cursor: pointer;
+    margin-right: -30px;
+    position: inherit;
+    top: -10px;
+}
+
+/*03/25/2020*/
+.price_top{
+    font-family: NotoSansJP;
+    font-size: 18px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    color: #ffffff;
+}
+.sub-price-top {
+    font-family: NotoSansJP;
+    font-size: 13px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.23;
+    letter-spacing: normal;
+    color: #b2b4b4;
+}
+.sub-price-top-right {
+    font-family: NotoSansJP;
+    font-size: 13px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.23;
+    letter-spacing: normal;
+    color: #b2b4b4;
+    position: relative;
+    text-align: left;
+}
+.title-price-t{
+    width: 100%;
+    float: left;
+    position: relative;
+    display: flex;
+}
+.title-price-top{
+    float: left;
+    word-break: keep-all;
+    padding-right: 15px;
+    position: relative;
+}
+.details-head-top{
+    float: left;
+    width: 100%;
+    display: flex;
+}
+.details-head-intro-right{
+    width: 40.95%;
+    float: left;
+}
+.details-head-intro-right-bottom {
+    float: left;
+    height: 50%;
+}
+.details-head-intro {
+    float: left;
+    display: contents;
+}
+
+.car-btn-noselect-reservation{
+    width: 100%;
+    justify-content: center;
+    background-color: transparent;
+    border: none;
+    color: white;
+    padding-top: 8px;
+}
+@media (min-width:768px) {
+    .sub-price-top-right {
+        line-height: 2;
+    }
+}
+@media (min-width:1440px) {
+    .sub-price-top-right span{
+        position: absolute;
+        bottom: -5px;
+        word-break: keep-all;
+    }
+    .sub-price-top-right{
+        width: 45%;
+    }
+}
+@media (max-width:1600px) {
+    .sub-price-top-right{
+        width: 45%;
+    }
+    .pgwSlider>.ps-list>li{
+        min-height: 78px;
+    }
+}
+@media (max-width:1440px) {
+    .pgwSlider .ps-current img{width: 86%!important;}
+    .pgwSlider>.ps-list>li{
+        min-height: 70px;
+    }
+}
+@media (max-width:1280px) {
+    .pgwSlider>.ps-list>li{
+        min-height: 60px;
+    }
+}
+@media (max-width:1024px) {
+    .pgwSlider>.ps-list>li{
+        min-height: 48px;
+    }
+    .pgwSlider .ps-current img{width: 81%!important;}
+}
+@media (max-width:800px) {
+    .pgwSlider>.ps-list>li{
+        min-height: 35px;
+    }
+    .pgwSlider .ps-current img{width: 80%!important;}
+    .pgwSlider .ps-current .ps-next, .pgwSlider .ps-current .ps-prev {
+        width: 35px!important;
+        height: 35px!important;
+    }
+}
