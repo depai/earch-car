@@ -1231,8 +1231,8 @@ p {
 
 }
 .circle-top {
-    width: 30px;
-    height: 30px;
+    width: 25px;
+    height: 25px;
     background: #fff;
     text-align: center;
     padding: 10px;
@@ -2518,7 +2518,7 @@ ul.ps-list::-webkit-scrollbar {
     font-size: 20px;
 }
 
-.crl-form .dlt-title {
+.dlt-title {
     margin-bottom: 7px;
 }
 
