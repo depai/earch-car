@@ -1231,8 +1231,8 @@ p {
 
 }
 .circle-top {
-    width: 23px;
-    height: 27px;
+    width: 20px;
+    height: 25px;
     background: #fff;
     text-align: center;
     padding: 10px;
@@ -1246,8 +1246,8 @@ p {
 }
 
 .circle-bottom {
-    width: 23px;
-    height: 27px;
+    width: 20px;
+    height: 25px;
     background: #fff;
     text-align: center;
     padding: 10px;
@@ -1257,7 +1257,7 @@ p {
     border-radius: 100px;
     margin-left: 50px;
     position: absolute;
-    margin-top: 86px;
+    margin-top: 89px;
 }
 
 .gachdoc{
@@ -1536,6 +1536,10 @@ p.dlc-description{
 .detail-slider{
     border-bottom: 1px solid #dcdcdc;
     padding-bottom: 37px;
+}
+
+input:checked + .crl-slider {
+    background-color: #db3564;
 }
 
 @media screen and (min-width: 1900px) {
