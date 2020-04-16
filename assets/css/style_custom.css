@@ -1439,17 +1439,29 @@ p {
 
 .crl-reservation-box-text-1, .crl-reservation-box-text-3,
 .crl-reservation-box-text-4, .crl-reservation-box-text-5,
-.crl-reservation-box-text-7{
+.crl-reservation-box-text-6, .crl-reservation-box-text-7{
     float: left;
 }
 
-.crl-reservation-box-text-2, .crl-reservation-box-text-6,
-.crl-reservation-box-text-8{
-    float: right;
+.crl-reservation-box-text-4{
+    padding-left: 14px;
 }
 
-.crl-reservation-box-text-4, .crl-reservation-box-text-5{
-    padding-left: 45px;
+.crl-reservation-box-text-5{
+    padding-left: 56px;
+}
+
+.crl-reservation-box-text-6{
+    padding-left: 75px;
+}
+
+.crl-reservation-box-text-1, .crl-reservation-box-text-7,
+.crl-reservation-box-2 p, .crl-reservation-box-text-3{
+    padding-left: 10px;
+}
+
+.crl-reservation-box-text-2, .crl-reservation-box-text-8{
+    padding-left: 320px;
 }
 
 .crl-btn-submit {
@@ -1468,6 +1480,10 @@ p {
 .crl-btn-submit p{
     color: #ffffff;
 }
+
+/*.crl-reservation-box-1{*/
+/*    padding-bottom: 20px;*/
+/*}*/
 
 @media screen and (min-width: 1900px) {
     .detail-slider.detail-slide-coupons.slick-initialized.slick-slider {
