@@ -41,25 +41,21 @@ $(document).ready(function(){
         ]
     });
 
-    // $('.card-hide').hide();
-    // $('.coupon-right-list').hide();
-    // $('.btn-go-to-coupon').click(function () {
+    $('.card-hide').hide();
+    $('.coupon-right-list').hide();
+    $('.btn-go-to-coupon').click(function () {
         $('.card-show').hide();
         $('.car-calendar-img').hide();
         $('.car-calendar').hide();
-    //     $('.card-hide').show();
-    //     $('.coupon-right-list').show();
-    // });
-    //
-    //     $('.card-hide').show();
-    //     $('.coupon-right-list').show();
-    // });
+        $('.card-hide').show();
+        $('.coupon-right-list').show();
+    });
 
-    // $('.crl-icn-arrow-back').click(function () {
-    //     $('.card-hide').hide();
-    //     $('.coupon-right-list').hide();
-    //     $('.card-show').show();
-    //     $('.car-calendar-img').show();
-    //     $('.car-calendar').show();
-    // });
+    $('.crl-icn-arrow-back').click(function () {
+        $('.card-hide').hide();
+        $('.coupon-right-list').hide();
+        $('.card-show').show();
+        $('.car-calendar-img').show();
+        $('.car-calendar').show();
+    });
 });
