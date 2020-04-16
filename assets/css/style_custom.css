@@ -827,6 +827,7 @@ dt {
 .details-body-main {
     z-index: 0;
     margin-top: 0;
+    width: 100%;
 }
 .car-tag {
     padding-left: 24px;
@@ -1213,9 +1214,8 @@ p {
 }
 
 .detail-list-coupon{
-    width: 930px;
     height: auto;
-    padding: 20px 0 0 24px;
+    padding: 20px 24px 0 24px;
 }
 
 .icon-arrow-back{
@@ -1308,8 +1308,11 @@ p {
 }
 
 .detail-slider {
-    width: 50%;
-    margin: 100px auto;
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    grid-gap: 32px;
+    overflow: hidden;
 }
 
 .crl-top{
@@ -1995,6 +1998,11 @@ p {
     .car-detail-title {
         padding: 0;
     }
+
+    .car-detail-title hr {
+        margin: 37px 0 32px 0;
+    }
+
     .car-detail-title .car-title {
         font-size: 18px;
         padding-right: 20px;
