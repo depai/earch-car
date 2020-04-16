@@ -2531,6 +2531,10 @@ ul.ps-list::-webkit-scrollbar {
     border-radius: 5px;
 }
 
+.crl-form .detail-slide-text {
+    margin-left: 60px;
+}
+
 .form-check-label .circle-1 {
     position: absolute;
     top: -1.5px;
