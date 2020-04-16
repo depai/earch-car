@@ -1273,7 +1273,7 @@ p {
     font-stretch: normal;
     font-style: normal;
     letter-spacing: normal;
-    margin-left: 100px;
+    margin-left: 90px;
     padding: 8px;
     text-align: center;
 }
@@ -1442,17 +1442,29 @@ p {
 
 .crl-reservation-box-text-1, .crl-reservation-box-text-3,
 .crl-reservation-box-text-4, .crl-reservation-box-text-5,
-.crl-reservation-box-text-7{
+.crl-reservation-box-text-6, .crl-reservation-box-text-7{
     float: left;
 }
 
-.crl-reservation-box-text-2, .crl-reservation-box-text-6,
-.crl-reservation-box-text-8{
-    float: right;
+.crl-reservation-box-text-4{
+    padding-left: 14px;
 }
 
-.crl-reservation-box-text-4, .crl-reservation-box-text-5{
-    padding-left: 45px;
+.crl-reservation-box-text-5{
+    padding-left: 56px;
+}
+
+.crl-reservation-box-text-6{
+    padding-left: 75px;
+}
+
+.crl-reservation-box-text-1, .crl-reservation-box-text-7,
+.crl-reservation-box-2 p, .crl-reservation-box-text-3{
+    padding-left: 10px;
+}
+
+.crl-reservation-box-text-2, .crl-reservation-box-text-8{
+    padding-left: 320px;
 }
 
 .crl-btn-submit {
@@ -1472,11 +1484,11 @@ p {
     color: #ffffff;
 }
 
-@media screen and (min-width: 1900px) {
-    .detail-slider.detail-slide-coupons.slick-initialized.slick-slider {
-        width: 1300px!important;
-    }
+/*.crl-reservation-box-1{*/
+/*    padding-bottom: 20px;*/
+/*}*/
 
+@media screen and (min-width: 1900px) {
     .vehicle-details .show-fixed-card{
         left: 89%;
     }
@@ -1491,35 +1503,23 @@ p {
 }
 
 @media screen and (max-width: 1390px) {
-    .detail-slider.detail-slide-coupons.slick-initialized.slick-slider {
-        width: 870px!important;
-    }
-
     .vehicle-details .show-fixed-card{
         left: 85%;
     }
 }
 
 @media screen and (max-width: 1366px) {
-    .detail-slider.detail-slide-coupons.slick-initialized.slick-slider {
-        width: 850px!important;
-    }
+
 }
 
 @media screen and (max-width: 1346px) {
-    .detail-slider.detail-slide-coupons.slick-initialized.slick-slider {
-        width: 820px!important;
-    }
-
     .vehicle-details .show-fixed-card{
         left: 84%;
     }
 }
 
 @media screen and (max-width: 1346px) {
-    .detail-slider.detail-slide-coupons.slick-initialized.slick-slider {
-        width: 800px!important;
-    }
+
 }
 
 @media screen and (min-width: 1300px) {
@@ -1529,14 +1529,6 @@ p {
 }
 
 @media screen and (max-width: 1296px) {
-    .detail-slider.detail-slide-coupons.slick-initialized.slick-slider {
-        width: 770px!important;
-    }
-
-    .slick-prev, .slick-next{
-        top: 35%!important;
-    }
-
     .dlt-title{
         font-size: 12px!important;
     }
@@ -1547,9 +1539,7 @@ p {
 }
 
 @media screen and (max-width: 1266px) {
-    .detail-slider.detail-slide-coupons.slick-initialized.slick-slider {
-        width: 750px!important;
-    }
+
 }
 
 @media screen and (max-width: 1250px) {
@@ -2527,7 +2517,12 @@ ul.ps-list::-webkit-scrollbar {
 }
 
 .dlt-title {
+    margin-top: 17px;
     margin-bottom: 7px;
+}
+
+.dlt-price{
+    margin-bottom: 4px;
 }
 
 .crl-form .dlt-price {
