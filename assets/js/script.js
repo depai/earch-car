@@ -47,8 +47,12 @@ $(document).ready(function(){
         $('.card-show').hide();
         $('.car-calendar-img').hide();
         $('.car-calendar').hide();
-        $('.card-hide').show();
-        $('.coupon-right-list').show();
+    //     $('.card-hide').show();
+    //     $('.coupon-right-list').show();
+    // });
+    //
+    //     $('.card-hide').show();
+    //     $('.coupon-right-list').show();
     // });
 
     // $('.crl-icn-arrow-back').click(function () {
