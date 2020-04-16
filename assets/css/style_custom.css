@@ -1225,7 +1225,6 @@ p {
 
 .coupon-hole-shape {
     width: 343px;
-    height: 98px;
     background-color: #f3f3f3;
     border-radius: 5%;
 
@@ -1274,7 +1273,6 @@ p {
     font-style: normal;
     letter-spacing: normal;
     margin-left: 90px;
-    padding: 8px;
     text-align: center;
     margin-top: 17px;
     margin-bottom: 12px;
@@ -1330,6 +1328,7 @@ p.dlc-description{
     font-size: 12px;
     font-weight: normal;
     line-height: normal;
+    margin-bottom: 0;
 }
 
 .detail-slider {
@@ -1536,6 +1535,30 @@ p.dlc-description{
 .detail-slider{
     border-bottom: 1px solid #dcdcdc;
     padding-bottom: 37px;
+    position: relative;
+}
+
+.detail-slider .arrow-left {
+    padding: 8px;
+    position: absolute;
+    z-index: 1;
+    width: 40px;
+    height: 40px;
+    background-color: #ffffff;
+    top: calc((100% - 37px)/2 - 20px);
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
+}
+
+.detail-slider .arrow-right {
+    padding: 8px;
+    position: absolute;
+    z-index: 1;
+    width: 40px;
+    height: 40px;
+    background-color: #ffffff;
+    top: calc((100% - 37px)/2 - 20px);
+    right: 0;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
 }
 
 @media screen and (min-width: 1900px) {
@@ -2728,4 +2751,8 @@ ul.ps-list::-webkit-scrollbar {
 
 .crl-title {
     position: relative;
+}
+
+.dlt-price .dtl-price-2 {
+    font-size: 20px;
 }
