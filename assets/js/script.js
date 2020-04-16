@@ -51,6 +51,10 @@ $(document).ready(function(){
     //     $('.coupon-right-list').show();
     // });
     //
+    //     $('.card-hide').show();
+    //     $('.coupon-right-list').show();
+    // });
+
     // $('.crl-icn-arrow-back').click(function () {
     //     $('.card-hide').hide();
     //     $('.coupon-right-list').hide();
