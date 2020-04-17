@@ -2620,6 +2620,19 @@ input:checked + .crl-slider {
         font-size: 13px;
     }
 
+    .crl-title .rounded-circle {
+         z-index: unset!important;
+    }
+
+    .crl-icn-arrow-back {
+        position: absolute;
+        z-index: 1;
+    }
+
+    .coupon-right-list .crl-title {
+        margin: 41px 20px 2px 20px;
+    }
+
     .crl-reservation{
         margin-top: 25px;
         width: 100%;
