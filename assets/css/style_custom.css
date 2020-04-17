@@ -3084,3 +3084,51 @@ ul.ps-list::-webkit-scrollbar {
 .dlt-price .dtl-price-2 {
     font-size: 20px;
 }
+
+@media screen and (max-width: 768px) {
+    .detail-list-coupon {
+        padding: 25px 16px 0 16px;
+    }
+
+    .arrow-left, .arrow-right {
+        display: none;
+    }
+
+    .coupon-hole-shape {
+        width: 275px;
+    }
+
+    .circle-bottom {
+        margin-top: 70px;
+        margin-left: 40px;
+    }
+
+    .circle-top {
+        margin-left: 40px;
+    }
+
+    .gachdoc {
+        margin-top: 14px;
+        margin-left: 49px;
+        border-left: 1.5px dashed grey
+    }
+
+    .detail-slide-text {
+        margin: 13px 0 11px 49px;
+    }
+
+    .detail-slide-text .dlt-title {
+        font-size: 11.2px!important;
+        line-height: 1;
+    }
+
+    .detail-slide-text .dlt-price {
+        font-size: 22.4px!important;
+        line-height: 1;
+        margin-bottom: 3px;
+    }
+
+    .detail-slide-text .dlt-title {
+        margin-bottom: 6px;
+    }
+}
