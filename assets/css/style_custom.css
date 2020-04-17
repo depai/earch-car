@@ -2304,9 +2304,7 @@ input:checked + .crl-slider {
 }
 
 @media screen and (max-width: 700px){
-    .detail-slider.detail-slide-coupons.slick-initialized.slick-slider {
-        width: 600px!important;
-    }
+
 }
 
 @media screen and (max-width: 691px) {
@@ -2316,16 +2314,6 @@ input:checked + .crl-slider {
 
     .crl-reservation-box-text-2, .crl-reservation-box-text-8 {
         padding-left: 300px;
-    }
-}
-
-@media screen and (max-width: 666px) {
-    .crl-reservation-box-text-6 {
-        padding-left: 38px;
-    }
-
-    .crl-reservation-box-text-2, .crl-reservation-box-text-8 {
-        padding-left: 280px;
     }
 }
 
@@ -2354,8 +2342,8 @@ input:checked + .crl-slider {
 }
 
 @media screen and (max-width: 600px){
-    .detail-slider.detail-slide-coupons.slick-initialized.slick-slider {
-        width: 500px!important;
+    .crl-coupons {
+        width: 70%;
     }
 
     .vehicle-details .show-fixed-card {
@@ -2404,6 +2392,16 @@ input:checked + .crl-slider {
     }
 }
 
+@media screen and (max-width: 523px) {
+    .crl-reservation-box-text-6 {
+        padding-left: 15px;
+    }
+
+    .crl-reservation-box-text-2, .crl-reservation-box-text-8 {
+        padding-left: 210px;
+    }
+}
+
 @media screen and (max-width: 500px) {
     .detail-slider.detail-slide-coupons.slick-initialized.slick-slider {
         width: 400px!important;
@@ -2415,7 +2413,7 @@ input:checked + .crl-slider {
     }
 
     .detail-slide-text p {
-        line-height: 6px;
+        line-height: 12px;
     }
 
     .icon-arrow-back, .icon-arrow-forward{
@@ -2435,14 +2433,72 @@ input:checked + .crl-slider {
 }
 
 @media screen and (max-width: 480px) {
-    .detail-slider.detail-slide-coupons.slick-initialized.slick-slider {
-        width: 360px!important;
+    .crl-coupons {
+        width: 75%;
+    }
+
+    .crl-reservation {
+        width: 75%;
+    }
+
+    .crl-reservation-box-text-2, .crl-reservation-box-text-8 {
+        padding-left: 310px;
+    }
+
+    .crl-reservation-box-text-5 {
+        padding-left: 70px;
+    }
+
+    .crl-reservation-box-text-6 {
+        padding-left: 70px;
+    }
+
+    .crl-btn-submit {
+        width: 360px;
     }
 }
 
-@media screen and (max-width: 440px) {
-    .detail-slider.detail-slide-coupons.slick-initialized.slick-slider {
-        width: 330px!important;
+@media screen and (max-width: 459px) {
+    .crl-coupons {
+        width: 83%;
+    }
+
+    .crl-reservation-box-text-2, .crl-reservation-box-text-8 {
+        padding-left: 296px;
+    }
+
+    .crl-reservation-box-text-6 {
+        padding-left: 50px;
+    }
+}
+
+@media screen and (max-width: 439px) {
+    .crl-reservation-box-text-2, .crl-reservation-box-text-8 {
+        padding-left: 280px;
+    }
+
+    .crl-reservation-box-text-5 {
+        padding-left: 59px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .crl-coupons {
+        width: 90%;
+    }
+
+    .detail-slide-text p {
+        line-height: 15px;
+    }
+}
+
+@media screen and (max-width: 419px) {
+    .crl-coupons {
+        width: 100%;
+    }
+
+    .crl-reservation {
+        width: 80%;
     }
 }
 
@@ -2472,7 +2528,87 @@ input:checked + .crl-slider {
     }
 }
 
+@media screen and (max-width: 392px) {
+    .crl-reservation-box-text-2, .crl-reservation-box-text-8 {
+        padding-left: 269px;
+    }
+
+    .crl-reservation-box-text-6 {
+        padding-left: 38px;
+    }
+}
+
+@media screen and (max-width: 378px) {
+    .crl-reservation-box-text-2, .crl-reservation-box-text-8 {
+        padding-left: 258px;
+    }
+
+    .crl-reservation-box-text-5 {
+        padding-left: 49px;
+    }
+}
+
 @media screen and (max-width: 375px) {
+    .crl-form {
+        padding: 0 16px!important;
+    }
+
+    .dlt-title{
+        font-size: 14px!important;
+        font-weight: 500!important;
+        font-stretch: normal!important;
+        font-style: normal!important;
+        line-height: 1.14!important;
+        letter-spacing: normal!important;
+        text-align: center!important;
+        color: #4b5257!important;
+    }
+
+    .dlt-price{
+        font-size: 28px!important;
+        font-weight: bold!important;
+        font-stretch: normal!important;
+        font-style: normal!important;
+        line-height: 0.86!important;
+        letter-spacing: normal!important;
+        color: #4b5257!important;
+    }
+
+    .dlt-date{
+        font-size: 12px!important;
+        font-weight: normal!important;
+        font-stretch: normal!important;
+        font-style: normal!important;
+        line-height: normal!important;
+        letter-spacing: normal!important;
+        color: #4b5257!important;
+    }
+
+    .dtl-price-2{
+        font-size: 20px!important;
+        font-weight: bold!important;
+        font-stretch: normal!important;
+        font-style: normal!important;
+        line-height: normal!important;
+        letter-spacing: normal!important;
+        color: #4b5257!important;
+    }
+
+    .crl-reservation{
+        margin-top: 25px;
+        width: 100%;
+        padding: 11px 25px 20px 23px;
+    }
+
+    .crl-title h4 {
+        margin-top: -24px;
+    }
+
+    .crl-btn-submit {
+        width: 92%;
+        margin-left: 16px;
+        margin-right: 16px;
+    }
     .rental-fee .indemnity {
         margin-top: 25px;
     }
