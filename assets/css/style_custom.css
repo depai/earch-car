@@ -2553,7 +2553,29 @@ input:checked + .crl-slider {
         padding: 0 16px!important;
     }
 
-    .dlt-title{
+    .crl-reservation-box-text-1, .crl-reservation-box-text-2, .crl-reservation-box-text-7,
+    .crl-reservation-box-text-8, .crl-reservation-box-text-3, .crl-reservation-box-text-5,
+    .crl-reservation-box-text-6, .crl-btn-submit p {
+        font-size: 16px;
+    }
+
+    .crl-reservation-box-text-2, .crl-reservation-box-text-8 {
+        padding-left: 270px;
+    }
+
+    .crl-reservation-box-text-4 {
+        padding-left: 18px;
+    }
+
+    .crl-reservation-box-text-5 {
+        padding-left: 45px;
+    }
+
+    .crl-reservation-box-text-6 {
+        padding-left: 32px;
+    }
+
+    .detail-slide-text p.dlt-title{
         font-size: 14px!important;
         font-weight: 500!important;
         font-stretch: normal!important;
@@ -2564,7 +2586,7 @@ input:checked + .crl-slider {
         color: #4b5257!important;
     }
 
-    .dlt-price{
+    .detail-slide-text p.dlt-price{
         font-size: 28px!important;
         font-weight: bold!important;
         font-stretch: normal!important;
@@ -2574,7 +2596,7 @@ input:checked + .crl-slider {
         color: #4b5257!important;
     }
 
-    .dlt-date{
+    .detail-slide-text p.dlt-date{
         font-size: 12px!important;
         font-weight: normal!important;
         font-stretch: normal!important;
@@ -2584,7 +2606,7 @@ input:checked + .crl-slider {
         color: #4b5257!important;
     }
 
-    .dtl-price-2{
+    .detail-slide-text .dtl-price-2{
         font-size: 20px!important;
         font-weight: bold!important;
         font-stretch: normal!important;
@@ -2592,6 +2614,10 @@ input:checked + .crl-slider {
         line-height: normal!important;
         letter-spacing: normal!important;
         color: #4b5257!important;
+    }
+
+    p.crl-p {
+        font-size: 13px;
     }
 
     .crl-reservation{
@@ -3099,7 +3125,7 @@ ul.ps-list::-webkit-scrollbar {
     }
 
     .circle-bottom {
-        margin-top: 70px;
+        margin-top: 86px;
         margin-left: 40px;
     }
 
@@ -3108,7 +3134,7 @@ ul.ps-list::-webkit-scrollbar {
     }
 
     .gachdoc {
-        margin-top: 14px;
+        margin-top: 21px;
         margin-left: 49px;
         border-left: 1.5px dashed grey
     }
