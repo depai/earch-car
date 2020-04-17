@@ -1448,9 +1448,9 @@ p.dlc-description{
     margin: 0 20px;
 }
 
-.crl-reservation hr{
-    width: 350px;
-}
+/*.crl-reservation hr{*/
+/*    width: 350px;*/
+/*}*/
 
 .crl-reservation-title{
     text-align: center;
@@ -1565,6 +1565,10 @@ input:checked + .crl-slider {
     background-color: #db3564;
 }
 
+.crl-hr{
+    clear: both;
+    width: 380px;
+}
 @media screen and (min-width: 1900px) {
     .vehicle-details .show-fixed-card{
         left: 89%;
@@ -1663,6 +1667,33 @@ input:checked + .crl-slider {
 }
 
 @media screen and (max-width: 1200px) {
+    .crl-btn-submit{
+        width: 320px;
+    }
+
+    .crl-reservation-box-text-1, .crl-reservation-box-text-2,
+    .crl-reservation-box-text-7, .crl-reservation-box-text-8,
+    .crl-reservation-box-text-3, .crl-reservation-box-text-5,
+    .crl-reservation-box-text-6, .crl-btn-submit p{
+        font-size: 14px;
+    }
+
+    .crl-hr {
+        width: 300px;
+    }
+
+    .crl-reservation-box-text-2, .crl-reservation-box-text-8 {
+        padding-left: 243px;
+    }
+
+    .crl-reservation-box-text-5 {
+        padding-left: 30px;
+    }
+
+    .crl-reservation-box-text-6 {
+        padding-left: 40px;
+    }
+
     .vehicle-details .car-intro-front {
         min-width: 334px;
         width: 334px;
@@ -1838,8 +1869,47 @@ input:checked + .crl-slider {
 }
 
 @media screen and (max-width: 960px) {
-    .detail-slider.detail-slide-coupons.slick-initialized.slick-slider {
-        width: 570px!important;
+    .crl-btn-submit{
+        width: 260px;
+    }
+
+    .crl-reservation-box-text-1, .crl-reservation-box-text-2,
+    .crl-reservation-box-text-7, .crl-reservation-box-text-8,
+    .crl-reservation-box-text-3, .crl-reservation-box-text-5,
+    .crl-reservation-box-text-6, .crl-btn-submit p{
+        font-size: 12px;
+    }
+
+    .crl-hr {
+        width: 235px;
+    }
+
+    .crl-reservation-box-text-2, .crl-reservation-box-text-8 {
+        padding-left: 192px;
+    }
+
+    .crl-reservation-box-text-5 {
+        padding-left: 20px;
+    }
+
+    .crl-reservation-box-text-6 {
+        padding-left: 20px;
+    }
+
+    .crl-p {
+        font-size: 10px;
+    }
+
+    .dlt-price .dtl-price-2 {
+        font-size: 16px!important;
+    }
+
+    .dlt-title {
+        font-size: 12px;
+    }
+
+    .dlt-date {
+        font-size: 10px;
     }
 
     .vehicle-details .show-fixed-card {
@@ -1922,6 +1992,40 @@ input:checked + .crl-slider {
     }
 }
 @media screen and (max-width: 767px) {
+    .crl-coupons {
+        width: 50%;
+        margin: 0 auto;
+    }
+
+    .crl-reservation{
+        width: 50%;
+        margin: 0 auto;
+    }
+
+    .crl-hr {
+        width: auto;
+    }
+
+    .crl-reservation-box-text-4 {
+        padding-left: 50px;
+    }
+
+    .crl-reservation-box-text-5 {
+        padding-left: 55px;
+    }
+
+    .crl-btn-submit {
+        width: 320px;
+    }
+
+    .crl-reservation-box-text-6 {
+        padding-left: 70px;
+    }
+
+    .crl-reservation-box-text-2, .crl-reservation-box-text-8 {
+        padding-left: 320px;
+    }
+
     .detail-slider.detail-slide-coupons.slick-initialized.slick-slider {
         width: 650px!important;
     }
@@ -2193,15 +2297,59 @@ input:checked + .crl-slider {
     }
 }
 
+@media screen and (max-width: 711px) {
+    .crl-reservation-box-text-4 {
+        padding-left: 40px;
+    }
+}
+
 @media screen and (max-width: 700px){
     .detail-slider.detail-slide-coupons.slick-initialized.slick-slider {
         width: 600px!important;
     }
 }
 
+@media screen and (max-width: 691px) {
+    .crl-reservation-box-text-6 {
+        padding-left: 57px;
+    }
+
+    .crl-reservation-box-text-2, .crl-reservation-box-text-8 {
+        padding-left: 300px;
+    }
+}
+
+@media screen and (max-width: 666px) {
+    .crl-reservation-box-text-6 {
+        padding-left: 38px;
+    }
+
+    .crl-reservation-box-text-2, .crl-reservation-box-text-8 {
+        padding-left: 280px;
+    }
+}
+
 @media screen and (max-width: 650px){
     .detail-slider.detail-slide-coupons.slick-initialized.slick-slider {
         width: 550px!important;
+    }
+}
+
+@media screen and (max-width: 666px) {
+    .crl-reservation-box-text-6 {
+        padding-left: 38px;
+    }
+
+    .crl-reservation-box-text-2, .crl-reservation-box-text-8 {
+        padding-left: 260px;
+    }
+
+    .crl-reservation-box-text-5 {
+        padding-left: 40px;
+    }
+
+    .crl-reservation-box-text-4 {
+        padding-left: 34px;
     }
 }
 
@@ -2213,6 +2361,46 @@ input:checked + .crl-slider {
     .vehicle-details .show-fixed-card {
         width: 60% !important;
         left: 58%!important;
+    }
+}
+
+@media screen and (max-width: 586px) {
+    .crl-reservation-box-text-5 {
+        padding-left: 30px;
+    }
+
+    .crl-reservation-box-text-2, .crl-reservation-box-text-8 {
+        padding-left: 250px;
+    }
+}
+
+@media screen and (max-width: 566px) {
+    .crl-reservation-box-text-2, .crl-reservation-box-text-8 {
+        padding-left: 240px;
+    }
+
+    .crl-reservation-box-text-4 {
+        padding-left: 24px;
+    }
+}
+
+@media screen and (max-width: 546px) {
+    .crl-reservation-box-text-6 {
+        padding-left: 27px;
+    }
+
+    .crl-reservation-box-text-2, .crl-reservation-box-text-8 {
+        padding-left: 230px;
+    }
+}
+
+@media screen and (max-width: 526px) {
+    .crl-reservation-box-text-6 {
+        padding-left: 27px;
+    }
+
+    .crl-reservation-box-text-2, .crl-reservation-box-text-8 {
+        padding-left: 220px;
     }
 }
 
